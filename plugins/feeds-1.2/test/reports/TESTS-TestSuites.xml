@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="MacBook.local" id="0" name="FeedBuilderTests" package="" tests="1" time="0.169" timestamp="2008-02-28T17:10:20">
+      <properties />
+
+      <testcase classname="FeedBuilderTests" name="testBuilderRootNodeWithAttribs" time="0.13" />
+
+      <testcase classname="FeedBuilderTests" name="testBuilderRootNodeWithAttribsAndPropertySetting" time="0.02" />
+
+      <testcase classname="FeedBuilderTests" name="testBuilderEntries" time="0.058" />
+
+      <testcase classname="FeedBuilderTests" name="testBuilderContent" time="0.136" />
+
+      <testcase classname="FeedBuilderTests" name="testBuilderValidation" time="0.161" />
+
+      <system-out><![CDATA[--Output from testBuilderRootNodeWithAttribs--
+--Output from testBuilderRootNodeWithAttribsAndPropertySetting--
+--Output from testBuilderEntries--
+--Output from testBuilderContent--
+--Output from testBuilderValidation--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testBuilderRootNodeWithAttribs--
+--Output from testBuilderRootNodeWithAttribsAndPropertySetting--
+--Output from testBuilderEntries--
+--Output from testBuilderContent--
+--Output from testBuilderValidation--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="MacBook.local" id="1" name="FeedsTagLibTests" package="" tests="1" time="0.071" timestamp="2008-02-28T17:10:23">
+      <properties />
+
+      <testcase classname="FeedsTagLibTests" name="testSomething" time="0.0" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="MacBook.local" id="2" name="RenderMethodTests" package="" tests="1" time="0.133" timestamp="2008-02-28T17:10:23">
+      <properties />
+
+      <testcase classname="RenderMethodTests" name="testRenderNodes" time="0.795" />
+
+      <testcase classname="RenderMethodTests" name="testRenderStringStillWorks" time="0.085" />
+
+      <testcase classname="RenderMethodTests" name="testRenderClosureStillWorks" time="0.114" />
+
+      <testcase classname="RenderMethodTests" name="testRenderMapClosureStillWorks" time="0.116" />
+
+      <testcase classname="RenderMethodTests" name="testSimple" time="0.13" />
+
+      <system-out><![CDATA[--Output from testRenderNodes--
+--Output from testRenderStringStillWorks--
+--Output from testRenderClosureStillWorks--
+--Output from testRenderMapClosureStillWorks--
+--Output from testSimple--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testRenderNodes--
+--Output from testRenderStringStillWorks--
+--Output from testRenderClosureStillWorks--
+--Output from testRenderMapClosureStillWorks--
+--Output from testSimple--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

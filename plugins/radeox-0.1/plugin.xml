@@ -1,0 +1,11 @@
+<plugin name='radeox' version='0.1'>
+  <resources>
+    <resource>ApplicationBootStrap</resource>
+    <resource>RadeoxUrlMappings</resource>
+    <resource>PageController</resource>
+    <resource>Page</resource>
+    <resource>RadeoxTagLib</resource>
+    <resource>GrailsWikiEngine</resource>
+    <resource>GroovyMacro</resource>
+  </resources>
+</plugin>

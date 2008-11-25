@@ -1,0 +1,22 @@
+Testsuite: FeedBuilderTests
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.169 sec
+------------- Standard Output ---------------
+--Output from testBuilderRootNodeWithAttribs--
+--Output from testBuilderRootNodeWithAttribsAndPropertySetting--
+--Output from testBuilderEntries--
+--Output from testBuilderContent--
+--Output from testBuilderValidation--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testBuilderRootNodeWithAttribs--
+--Output from testBuilderRootNodeWithAttribsAndPropertySetting--
+--Output from testBuilderEntries--
+--Output from testBuilderContent--
+--Output from testBuilderValidation--
+------------- ---------------- ---------------
+
+Testcase: testBuilderRootNodeWithAttribs took 0.131 sec
+Testcase: testBuilderRootNodeWithAttribsAndPropertySetting took 0.02 sec
+Testcase: testBuilderEntries took 0.058 sec
+Testcase: testBuilderContent took 0.136 sec
+Testcase: testBuilderValidation took 0.161 sec

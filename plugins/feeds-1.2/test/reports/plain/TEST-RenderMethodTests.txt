@@ -1,0 +1,22 @@
+Testsuite: RenderMethodTests
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.133 sec
+------------- Standard Output ---------------
+--Output from testRenderNodes--
+--Output from testRenderStringStillWorks--
+--Output from testRenderClosureStillWorks--
+--Output from testRenderMapClosureStillWorks--
+--Output from testSimple--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testRenderNodes--
+--Output from testRenderStringStillWorks--
+--Output from testRenderClosureStillWorks--
+--Output from testRenderMapClosureStillWorks--
+--Output from testSimple--
+------------- ---------------- ---------------
+
+Testcase: testRenderNodes took 0.795 sec
+Testcase: testRenderStringStillWorks took 0.085 sec
+Testcase: testRenderClosureStillWorks took 0.114 sec
+Testcase: testRenderMapClosureStillWorks took 0.116 sec
+Testcase: testSimple took 0.13 sec

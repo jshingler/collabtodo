@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="MacBook.local" name="FeedBuilderTests" tests="1" time="0.169" timestamp="2008-02-28T17:10:20">
+  <properties />
+  <testcase classname="FeedBuilderTests" name="testBuilderRootNodeWithAttribs" time="0.13" />
+  <testcase classname="FeedBuilderTests" name="testBuilderRootNodeWithAttribsAndPropertySetting" time="0.02" />
+  <testcase classname="FeedBuilderTests" name="testBuilderEntries" time="0.058" />
+  <testcase classname="FeedBuilderTests" name="testBuilderContent" time="0.136" />
+  <testcase classname="FeedBuilderTests" name="testBuilderValidation" time="0.161" />
+  <system-out><![CDATA[--Output from testBuilderRootNodeWithAttribs--
+--Output from testBuilderRootNodeWithAttribsAndPropertySetting--
+--Output from testBuilderEntries--
+--Output from testBuilderContent--
+--Output from testBuilderValidation--
+]]></system-out>
+  <system-err><![CDATA[--Output from testBuilderRootNodeWithAttribs--
+--Output from testBuilderRootNodeWithAttribsAndPropertySetting--
+--Output from testBuilderEntries--
+--Output from testBuilderContent--
+--Output from testBuilderValidation--
+]]></system-err>
+</testsuite>

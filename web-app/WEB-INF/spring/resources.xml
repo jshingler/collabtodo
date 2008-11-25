@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
+
+    <!-- The following are added configurations for Spring Mail Services -->
+    <!-- This is the authenticator, and for a default authentication -->
+    <bean id="smtpAuthenticator" class="SmtpAuthenticator">
+		<constructor-arg value="xxx@xxx.net" />
+		<constructor-arg value="xxxxxx" />
+	</bean>
+
+    <!-- A holder to store a default from -->
+    <bean id="eMailProperties" class="EMailProperties">
+		<property name="from" value="admin@practicalgrails.com" />
+	</bean>
+
+	<bean id="mailSession" class="javax.mail.Session" factory-method="getInstance">
+		<constructor-arg>
+			<props>
+				<prop key="mail.smtp.auth">true</prop>
+				<!-- If SSL needed...
+				<prop key="mail.smtp.socketFactory.port">465</prop>
+				<prop key="mail.smtp.socketFactory.class">
+					javax.net.ssl.SSLSocketFactory
+				</prop>
+				<prop key="mail.smtp.socketFactory.fallback">
+					false
+				</prop>
+				 -->
+			</props>
+		</constructor-arg>
+		<constructor-arg ref="smtpAuthenticator" />
+	</bean>
+
+	<bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+		<property name="host" value="smtp.att.yahoo.com" />
+		<property name="session" ref="mailSession" />
+	</bean>
+	
+	
+</beans>

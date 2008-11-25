@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="MacBook.local" name="RenderMethodTests" tests="1" time="0.133" timestamp="2008-02-28T17:10:23">
+  <properties />
+  <testcase classname="RenderMethodTests" name="testRenderNodes" time="0.795" />
+  <testcase classname="RenderMethodTests" name="testRenderStringStillWorks" time="0.085" />
+  <testcase classname="RenderMethodTests" name="testRenderClosureStillWorks" time="0.114" />
+  <testcase classname="RenderMethodTests" name="testRenderMapClosureStillWorks" time="0.116" />
+  <testcase classname="RenderMethodTests" name="testSimple" time="0.13" />
+  <system-out><![CDATA[--Output from testRenderNodes--
+--Output from testRenderStringStillWorks--
+--Output from testRenderClosureStillWorks--
+--Output from testRenderMapClosureStillWorks--
+--Output from testSimple--
+]]></system-out>
+  <system-err><![CDATA[--Output from testRenderNodes--
+--Output from testRenderStringStillWorks--
+--Output from testRenderClosureStillWorks--
+--Output from testRenderMapClosureStillWorks--
+--Output from testSimple--
+]]></system-err>
+</testsuite>

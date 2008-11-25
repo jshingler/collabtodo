@@ -1,0 +1,6 @@
+--Output from testBuilderRootNodeWithAttribs--
+--Output from testBuilderRootNodeWithAttribsAndPropertySetting--
+--Output from testBuilderEntries--
+--Output from testBuilderContent--
+--Output from testBuilderValidation--
+
